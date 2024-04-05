@@ -62,7 +62,7 @@ Sorting
     Sleep    1s
     Click Element    xpath=//*[@id="header_container"]/div[2]/div/span/select/option[${Sorting}]
 Hambuger Tab
-    Wait Until Element Is Visible    class=app_logo    20s
+    Wait Until Element Is Visible    id=react-burger-menu-btn    20s
     Click Element    id=react-burger-menu-btn
 Exit in Hambuger Tab
     Wait Until Element Is Visible    id=inventory_sidebar_link    20s
@@ -77,5 +77,5 @@ Reset App in Hambuger Tab
     Wait Until Element Is Visible    class=app_logo    20s
     Click Element    id=reset_sidebar_link
 All Item in Hambuger Tab
-    Wait Until Element Is Visible    class=app_logo    20s
+    Wait Until Element Is Visible    id=reset_sidebar_link    20s
     Click Element    id=reset_sidebar_link
