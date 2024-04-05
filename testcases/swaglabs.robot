@@ -126,7 +126,7 @@ Case 15 Logout in Hambuger Tab
     loginpage.Input Username    standard_user
     loginpage.Input Password    secret_sauce
     loginpage.Login Button
-    Sleep    2s
+    Sleep    4s
     homepage.Hambuger Tab
     homepage.Logout in Hambuger Tab
     Sleep    4s
